@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start body */
+
+body {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+body #top_line {
+  border-top-color: #9e2630;
+  border-top-style: solid;
+  width: 100%;
+  height: 12px;
+}
+
+/* end body */
+
+#wrapper {
+  width: 1150px;
+  height: 950px;
+  margin: auto;
+}
+
+/* start header_left */
+
+#wrapper #header #header_left {
+  width: 575px;
+  height: 50px;
+  float: left;
+}
+
+#wrapper #header #header_left img {
+  width: 275px;
+  height: 50px;
+}
+
+/* end header_left */
+
+/* start header_right */
+
+#wrapper #header #header_right {
+  width: 325px;
+  height: 50px;
+  float: right;
+}
+
+#wrapper #header #header_right ul {
+  list-style-type: none;
+}
+
+#wrapper #header #header_right ul li {
+  float: left;
+  width: 80px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#wrapper #header #header_right ul li a {
+  text-decoration: none;
+  color: #9e2630;
+}
+
+/* end header_right */
+
+/* start sliderwrapper */
+
+#wrapper #sliderwrapper {
+  width: 100%;
+  height: 450px;
+  clear: both;
+  border-radius: 5px;
+}
+
+#wrapper #sliderwrapper img {
+  width: 100%;
+  height: 450px;
+}
+
+/* end sliderwrapper */
+
+#wrapper h1 {
+  background-color: #9e2630;
+  font-size: 26px;
+  padding: 10px 0px 10px 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* start content */
+
+#wrapper #content {
+  width: 100%;
+  min-height: 600px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+/* end content */
+
+#wrapper #footer {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #9e2630;
+}
+
+/* start CLASS */
+
+.container {
+  width: 100%;
+  height: 45px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.section {
+  float: left;
+  margin: auto;
+  overflow: hidden;
+  min-width: 100%;
+}
+
+.section img {
+  float: left;
+  margin: 5px 45px 5px 5px;
+  padding: 5px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.section p {
+  font-size: 16px;
+  text-align: justify;
+  padding: 5px;
+}
+
+.section a {
+  text-decoration: none;
+  color: grey;
+  outline-style: ridge;
+  outline-width: 1px;
+  padding: 5px;
+  opacity: 0.2;
+}
+
+/* end CLASS */
